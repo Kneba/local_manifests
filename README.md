@@ -1,1 +1,3 @@
 # local_manifests
+
+Creating a local manifest allows you to customize the list of repositories used in your copy of the source code by overriding or supplementing the default manifest. In this way, you can add, remove, or replace source code in the official manifest with your own. By including repositories (which need not even reside on GitHub) in a local manifest, you can continue to synchronize with the repo sync command just as you would have previously. Only now, both the official repositories from the default manifest and the additional repositories you specify will be checked for updates.
