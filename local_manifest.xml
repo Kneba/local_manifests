@@ -4,16 +4,11 @@
 
   <remote name="Kneba"
           fetch="https://github.com/Kneba" />
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
-  <remote name="Subinsmani"
-          fetch="https://github.com/Subinsmani" />
 
   <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="pe" clone-depth="1" />
-        <project path="vendor/asus" name="vendor_asus_X00TD" remote="Kneba" revision="pe" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" clone-depth="1" />
-
-        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="Subinsmani" revision="eleven" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="main" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="main" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus_X00TD" remote="Kneba" revision="main" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="r42" clone-depth="1" />
 
 </manifest>
