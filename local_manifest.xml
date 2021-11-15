@@ -6,8 +6,8 @@
         fetch="https://github.com/Kneba" />
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
-        <remote name="nktn30"
-        fetch="https://github.com/nktn30" />
+        <remote name="Navin136"
+        fetch="https://github.com/Navin136" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="11" />
@@ -19,6 +19,6 @@
         <remove-project name="hardware/qcom-caf/msm8998/display" />
 
         <!-- Hals stuff -->
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="nktn30" revision="11" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="Navin136" revision="snow" />
 
 </manifest>
