@@ -6,8 +6,8 @@
         fetch="https://github.com/Kneba" />
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
-        <remote name="Navin136"
-        fetch="https://github.com/Navin136" />
+        <remote name="xyz-prjkt"
+        fetch="https://github.com/xyz-prjkt" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="11" />
@@ -16,9 +16,9 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="11" />
 
         <!-- Remove -->
-        <remove-project name="hardware/qcom-caf/msm8998/display" />
+        <remove-project name="hw_display" />
 
         <!-- Hals stuff -->
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="Navin136" revision="snow" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hw_display" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
 
 </manifest>
