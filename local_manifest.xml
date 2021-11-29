@@ -11,4 +11,7 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="tom"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="11" />
 
+        <!-- Remove -->
+        <remove-project name="hardware/qcom/gps" />
+        
 </manifest>
