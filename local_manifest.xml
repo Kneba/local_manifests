@@ -6,12 +6,17 @@
         fetch="https://github.com/Kneba" />
         <remote name="cbendot"
         fetch="https://github.com/cbendot" />
+        <remote name="kdrag0n"
+        fetch="https://github.com/kdrag0n" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kneba" revision="10" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="nlv"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="10" />
+
+        <!-- Proton-Clang v13.0.0 Toolchain -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
         <!-- Remove -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
