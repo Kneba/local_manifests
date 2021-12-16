@@ -11,8 +11,7 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="r38"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="amy" />
 
-        <!-- Remove -->
-        <remove-project name="LineageOS/frameworks_base" />
-        <project name="frameworks_base" path="frameworks/base" remote="cbendot" Kneba="rosie" />
+        <!-- HALs -->
+        <project name="frameworks_base" path="frameworks/base" remote="Kneba" revision="rosie" />
 
 </manifest>
