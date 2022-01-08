@@ -6,7 +6,7 @@
         fetch="https://github.com/Kneba" />
         <remote name="ArrowOS"
         fetch="https://github.com/ArrowOS" />
-        <remote name="clang"
+        <remote name="kdrag0n"
         fetch="https://github.com/kdrag0n" />
 
         <!-- Sync trees -->
@@ -23,7 +23,7 @@
 	<project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.0-caf-msm8998" />
 	<project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.0-caf-msm8998" />
 
-        <!-- Proton-Clang v14.0.0 Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
+        <!-- Proton-Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
