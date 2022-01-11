@@ -13,6 +13,6 @@
 
         <!-- Build Make -->
         <remove-project name="build_make" />
-        <project path="build/system" name="build_make" remote="Kneba" revision="frico-release" />
+        <project path="build/make" name="build_make" groups="pdk" remote="Kneba" revision="frico-release" />
 
 </manifest>
