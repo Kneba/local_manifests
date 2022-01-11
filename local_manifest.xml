@@ -11,4 +11,8 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="bpflv"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="12" />
 
+        <!-- Build Make -->
+        <remove-project name="build_make" />
+        <project path="build/make" name="build_make" remote="Kneba" revision="frico-release" />
+
 </manifest>
