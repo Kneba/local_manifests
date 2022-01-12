@@ -12,6 +12,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="12" />
 
         <!-- Build Make -->
+        <remove-project name="build_make" />
         <project path="build/make" name="build_make" groups="pdk" remote="Kneba" revision="frico-release" />
 
 </manifest>
