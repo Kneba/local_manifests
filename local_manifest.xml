@@ -6,16 +6,11 @@
         fetch="https://github.com/Kneba" />
         <remote name="Ruega"
         fetch="https://github.com/Ruega" />
-        <remote name="Project-Awaken"
-        fetch="https://github.com/Project-Awaken" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="12" />
         <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="12" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Ruega" revision="HMP"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="12" />
-
-        <remove-project name="platform_frameworks_base" />
-        <project name="android_frameworks_base" path="platform/frameworks/base" remote="Project-Awaken" revision="12" />
 
 </manifest>
