@@ -6,6 +6,8 @@
         fetch="https://github.com/Kneba" />
         <remote name="kdrag0n"
         fetch="https://github.com/kdrag0n" />
+       <remote name="pixel"
+        fetch="https://github.com/PixelExperience" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="syberia" />
@@ -15,5 +17,8 @@
 
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
+        <!-- Hals -->
+        <project path="device/qcom-caf/sepolicy/legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" revision="twelve" />
 
 </manifest>
