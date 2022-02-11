@@ -8,7 +8,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="12" />
         <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="12" />
-        <project path="kernel/asus/sdm660" name="Ruega-Kernel-X00T" remote="Kneba" revision="44"/>
+        <project path="kernel/asus/sdm660" name="Ruega-Kernel-X00T" remote="Kneba" revision="hmp"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="12" />
 
 </manifest>
