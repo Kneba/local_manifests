@@ -11,4 +11,7 @@
         <project path="kernel/asus/sdm660" name="Ruega-Kernel-X00T" remote="Kneba" revision="hmp"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="11" />
 
+        <!-- Sync hals -->
+        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="Kneba" revision="eleven" />
+
 </manifest>
