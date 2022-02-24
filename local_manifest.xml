@@ -6,11 +6,13 @@
         fetch="https://github.com/Kneba" />
         <remote name="cbendot"
         fetch="https://github.com/cbendot" />
+        <remote name="Tiktodz"
+        fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kneba" revision="10" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqnlv"/>
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="lineage-16.0" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="10" />
 
         <!-- Remove -->
