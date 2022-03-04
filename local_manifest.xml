@@ -18,6 +18,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="11" />
 
         <!-- Remove -->
+        <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
         <remove-project name="vendor/qcom/opensource/audio-hal/primary-hal" />
         <remove-project name="hardware/qcom/media" />
         <remove-project name="hardware/qcom/display" />
