@@ -21,14 +21,12 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="11" />
 
         <!-- Remove -->
-        <remove-project name="packages/resources/devicesettings" />
         <remove-project name="vendor/qcom/opensource/commonsys-intf/display" />
         <remove-project name="vendor/qcom/opensource/audio-hal/primary-hal" />
         <remove-project name="hardware/qcom/media" />
         <remove-project name="hardware/qcom/display" />
 
         <!-- Sync hals -->
-        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-18.1" />
         <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="LineageOS" revision="lineage-18.1" />
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom-caf_audio_msm8998" remote="AOSP" revision="11" />
         <project path="hardware/qcom/media" name="hardware_qcom-caf_media_msm8998" remote="AOSP" revision="11" />
