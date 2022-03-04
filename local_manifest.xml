@@ -11,10 +11,13 @@
         <remote name="LineageOS"
         fetch="https://github.com/LineageOS" />
 
+        <remote name="asus"
+        fetch="https://github.com/Project-404-Asus-SDM660" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="11" />
         <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="11" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="cat" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="11" />
 
         <!-- Sync hals -->
@@ -25,5 +28,6 @@
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" remote="AOSP-11" revision="11" />
         <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="LineageOS" revision="lineage-18.1" />
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="AOSP-11" revision="11" />
+        <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="asus" revision="rippa" />
 
 </manifest>
