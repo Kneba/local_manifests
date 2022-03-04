@@ -19,13 +19,13 @@
 
         <!-- Remove -->
         <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
-        <remove-project name="vendor/qcom/opensource/audio-hal/primary-hal" />
-        <remove-project name="hardware/qcom/media" />
-        <remove-project name="hardware/qcom/display" />
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_display" />
 
         <!-- Sync hals -->
         <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="LineageOS" revision="lineage-18.1" />
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom-caf_audio_msm8998" remote="AOSP" revision="11" />
+        <project path="hardware/qcom/audio" name="hardware_qcom-caf_audio_msm8998" remote="AOSP" revision="11" />
         <project path="hardware/qcom/media" name="hardware_qcom-caf_media_msm8998" remote="AOSP" revision="11" />
         <project path="hardware/qcom/display" name="hardware_qcom-caf_display_msm8998" remote="AOSP" revision="11" />
 
