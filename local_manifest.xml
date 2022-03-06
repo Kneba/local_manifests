@@ -4,15 +4,15 @@
 
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
-        <remote name="Tiktodz"
-        fetch="https://github.com/Tiktodz" />
+        <remote name="pkm774"
+        fetch="https://github.com/pkm774" />
         <remote name="Danish1999"
         fetch="https://github.com/Danish1999" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Danish1999" revision="Q" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="10" />
 
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
