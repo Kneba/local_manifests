@@ -14,4 +14,6 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="tpd"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="twelve" />
 
+        <remove-project name="vendor/xiaomi" />
+
 </manifest>
