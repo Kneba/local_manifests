@@ -8,10 +8,17 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
+        <remote name="LineageOS"
+        fetch="https://github.com/LineageOS" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="xdoss" />
         <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="twelve" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="tpd" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="twelve" />
+
+        <remove-project name="android_packages_resources_devicesettings"/>
+        <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="LineageOS" revision="lineage-18.1"/>
+        <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="LineageOS" revision="lineage-18.1"/>
 
 </manifest>
