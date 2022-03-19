@@ -8,7 +8,7 @@
         fetch="https://github.com/travarilo" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="rosie-lts" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="crlos" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kneba" revision="rosie-lts" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="travarilo" revision="master" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="rosie-lts" />
