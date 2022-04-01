@@ -20,6 +20,6 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="asus-sdm660-devs" revision="lineage-19.0" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="master" />
 
-        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
+        <!--project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" /-->
 
 </manifest>
