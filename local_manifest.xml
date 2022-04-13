@@ -18,7 +18,7 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="fuse" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="tpd" />
-        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="main" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="master" />
 
         <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
 
