@@ -8,8 +8,8 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <remote name="asus-sdm660-devs"
-        fetch="https://github.com/asus-sdm660-devs" />
+        <!--remote name="asus-sdm660-devs"
+        fetch="https://github.com/asus-sdm660-devs" /-->
 
         <!--remote name="kdrag0n"
         fetch="https://github.com/kdrag0n" /-->
