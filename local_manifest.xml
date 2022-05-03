@@ -20,6 +20,10 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="asus-sdm660-devs" revision="lineage-19.1" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="fluid" />
 
+        <!-- Sync hals -->
+        <remove-project name="hardware/qcom-caf/msm8998/media" />
+        <remove-project name="hardware/qcom-caf/msm8998/display" />
+        <remove-project name="hardware/qcom-caf/msm8998/audio" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="sfierxyz" revision="12" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="sfierxyz" revision="12" />
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="sfierxyz" revision="12" />
