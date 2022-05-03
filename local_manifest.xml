@@ -14,6 +14,9 @@
         <remote name="sfierxyz"
         fetch="https://github.com/sfierxyz" />
 
+        <remote name="StatiXOS"
+        fetch="https://github.com/StatiXOS" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="fluid" />
         <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="twelve" />
@@ -27,5 +30,7 @@
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="sfierxyz" revision="12" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="sfierxyz" revision="12" />
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="sfierxyz" revision="12" />
+        <remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" />
+        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="StatiXOS" revision="sc" />
 
 </manifest>
