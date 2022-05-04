@@ -14,9 +14,6 @@
         <remote name="sfierxyz"
         fetch="https://github.com/sfierxyz" />
 
-        <remote name="StatiXOS"
-        fetch="https://github.com/StatiXOS" />
-
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="fluid" />
         <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="twelve" />
