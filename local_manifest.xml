@@ -8,21 +8,25 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <remote name="ArrowOS"
-        fetch="https://github.com/ArrowOS" />
+        <remote name="strongreasons"
+        fetch="https://github.com/strongreasons" />
+
+        <remote name="Corvus"
+        fetch="https://github.com/Corvus-AOSP" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="12" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="lineage-19.1" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="L" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="rice" />
+        <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="master" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="twelve-caf-eas" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="strongreasons" revision="rice" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="android_prebuilts_clang_host_linux-x86_clang-r416183b" remote="Corvus" revision="11" />
 
-        <remove-project name="android_hardware_qcom_audio" />
+        <!-- remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_media" /-->
   
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <!-- project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" /-->
 
 </manifest>
