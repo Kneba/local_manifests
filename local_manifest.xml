@@ -36,8 +36,8 @@
         <remove-project name="platform/external/libmpeg2" />
         <remove-project name="platform/external/tremolo" />
         <remove-project name="platform/external/libgav1" />
-        <remove-project name="crdroidandroid/android_packages_services_Telecomm" />
-        <remove-project name="crdroidandroid/android_packages_services_Telephony" />
+        <remove-project name="android_packages_services_Telecomm" />
+        <remove-project name="android_packages_services_Telephony" />
 
         <!-- project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
@@ -46,7 +46,7 @@
         <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" remote="aosp" />
         <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
         <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
-        <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
-        <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+        <project path="LineageOS/packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="los" />
+        <project path="LineageOS/packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="los" />
 
 </manifest>
