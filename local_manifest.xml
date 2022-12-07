@@ -14,11 +14,45 @@
         <remote name="arrow"
         fetch="https://github.com/ArrowOS-Devices" />
 
+        <remote name="silicon"
+        fetch="https://github.com/AOSP-silicon" />
+
+        <remote name="github-me"
+        fetch="https://github.com/GhostMaster69-dev" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="superior" />
         <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="twelve-caf-eas" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="strongreasons" revision="rice" />
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
+
+        <!-- Framework Telephony -->
+        <remove-project name="platform/frameworks/opt/telephony" />
+        <project path="frameworks/opt/telephony" name="lineage_frameworks_opt_telephony" remote="github-me" revision="lineage-19.1" clone-depth="1" />
+
+        <!-- FWB -->
+        <remove-project name="android_frameworks_base" />
+        <project path="frameworks/base" name="superior_frameworks_base" remote="silicon" revision="twelvedotone" clone-depth="1" />
+
+        <!-- Framework-av -->
+        <remove-project name="android_frameworks_av" />
+        <project path="frameworks/av" name="superior_frameworks_av" remote="silicon" revision="twelvedotone" clone-depth="1" />
+
+        <!-- Framework-native -->
+        <remove-project name="android_frameworks_native" />
+        <project path="frameworks/native" name="superior_frameworks_native" remote="silicon" revision="twelvedotone" clone-depth="1" />
+
+        <!-- Settings -->
+        <remove-project name="android_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="superior_packages_apps_Settings" remote="silicon" revision="twelvedotone" clone-depth="1" />
+
+        <!-- SuperiorSettings -->
+        <remove-project name="android_packages_apps_SuperiorSettings" />
+        <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="silicon" revision="twelvedotone" clone-depth="1" />
+
+        <!-- Vendor -->
+        <remove-project name="android_vendor_superior" />
+        <project path="vendor/superior" name="android_vendor_superior" remote="silicon" revision="twelvedotone" clone-depth="1" />
 
 </manifest>
