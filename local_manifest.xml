@@ -36,8 +36,8 @@
         <remove-project name="platform/external/libmpeg2" />
         <remove-project name="platform/external/tremolo" />
         <remove-project name="platform/external/libgav1" />
-        <remove-project name="android_packages_services_Telecomm" />
-        <remove-project name="android_packages_services_Telephony" />
+        <remove-project name="crdroidandroid/android_packages_services_Telecomm" />
+        <remove-project name="crdroidandroid/android_packages_services_Telephony" />
 
         <!-- project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
