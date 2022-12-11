@@ -16,7 +16,7 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="twelve" />
-        <project path="vendor/asus" name="platform_vendor_asus" remote="strongreasons" revision="main" />
+        <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="main" />
         <project path="kernel/asus/sdm660" name="platform_kernel_asus_sdm660" remote="Kneba" revision="eas" />
         <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="twelve" />
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
