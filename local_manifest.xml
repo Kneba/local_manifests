@@ -11,7 +11,7 @@
         <!-- remote name="strongreasons"
         fetch="https://github.com/strongreasons" /-->
 
-        <remote name="arrow"
+        <remote name="ArrowOS"
         fetch="https://github.com/ArrowOS-Devices" />
 
         <!-- Sync trees -->
@@ -19,7 +19,7 @@
         <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="main" />
         <project path="kernel/asus/sdm660" name="platform_kernel_asus_sdm660" remote="Kneba" revision="eas" />
         <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="twelve" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS" revision="arrow-11.0" />
 
         <!-- remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
