@@ -14,6 +14,18 @@
         <remote name="ArrowOS"
         fetch="https://github.com/ArrowOS-Devices" />
 
+        <!-- build -->
+        <remove-project name="build" />
+        <project path="build/make" name="build" remote="Kneba" revision="snow" clone-depth="1" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+        </project>
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="twelve" />
         <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="main" />
