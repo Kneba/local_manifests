@@ -8,8 +8,8 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <!-- remote name="karthik"
-        fetch="https://github.com/karthik" /-->
+        <remote name="karthik"
+        fetch="https://github.com/karthik" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="potato" />
