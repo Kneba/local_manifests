@@ -18,7 +18,7 @@
         <project path="device/asus/sdm660-common" name="device_device_asus_sdm660-common" remote="Kneba" revision="nightlight" />
 
         <!-- Remove -->
-        <remove-project name="hardware/qcom-caf/msm8998/audio" />
+        <remove-project name="android_hardware_qcom_audio" />
 
         <!-- Cloning -->
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="karthik" revision="13" />
