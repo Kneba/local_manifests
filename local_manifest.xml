@@ -8,29 +8,17 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <!-- remote name="strongreasons"
-        fetch="https://github.com/strongreasons" /-->
+        <remote name="Swamoy14"
+        fetch="https://github.com/Swamoy14" />
 
         <remote name="ImSurajxD"
         fetch="https://gitlab.com/ImSurajxD" />
 
-        <remote name="ThakurRahulSingh"
-        fetch="https://github.com/ThakurRahulSingh" />
-
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="corvus" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Kneba" revision="TNL" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-caf" remote="Kneba" revision="13" />
-        <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="thirteen" />
+        <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="arrow" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="4.19" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Swamoy14" revision="13" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="4.19" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-
-        <remove-project name="android_bionic" />
-        <project path="bionic" name="android_bionic" remote="ThakurRahulSingh" revision="13" />
-
-        <remove-project name="android_packages_services_Telecomm" />
-        <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ThakurRahulSingh" revision="13" />
-
-        <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
-        <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="ThakurRahulSingh" revision="lineage-20.0" />
 
 </manifest>
