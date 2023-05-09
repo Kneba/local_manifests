@@ -3,7 +3,7 @@
 <manifest>
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="Kneba/device_asus_X00T" remote="github" revision="master" />
+        <project path="device/asus/X00T" name="Kneba/device_asus_X00T" remote="github" revision="master" />
         <project path="vendor/asus" name="Kneba/vendor_asus_X00T" remote="github" revision="master" />
         <project path="kernel/asus/sdm660" name="Tiktodz/kernel_asus_sdm660" remote="github" revision="main" />
 
