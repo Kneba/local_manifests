@@ -21,5 +21,10 @@
         <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
         <project path="packages/apps/Settings" name="strongreasons/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
-        
+
+
+       <remove-project name="LineageOS/android_hardware_qcom_audio" />
+
+
+        <project path="hardware/qcom-caf/msm8998/audio" name="Kneba/android_hardware_qcom_audii" remote="github" revision="lineage-17.1-caf-msm8998" />
 </manifest>
