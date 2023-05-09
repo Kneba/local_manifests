@@ -4,8 +4,8 @@
 
   <remote name="strongreasons"
           fetch="https://github.com/strongreasons" />
-  <!-- remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" /-->
+  <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
   <!-- remote name="wizardprjkt"
           fetch="https://github.com/wizardprjkt" /-->
 
