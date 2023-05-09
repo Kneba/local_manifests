@@ -2,16 +2,10 @@
 
 <manifest>
 
-  <remote name="strongreasons"
-          fetch="https://github.com/strongreasons" />
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
-
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="nad" />
-        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="nad" />
-        <project path="kernel/asus/sdm660" name="aslenofarid/kernel_asus_sdm660" remote="github" revision="lineage-17.1" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-1" remote="strongreasons" revision="17.1" />
+        <project path="device/asus/X00TD" name="Kneba/device_asus_X00T" remote="github" revision="master" />
+        <project path="vendor/asus" name="Kneba/vendor_asus_X00T" remote="github" revision="master" />
+        <project path="kernel/asus/sdm660" name="Tiktodz/kernel_asus_sdm660" remote="github" revision="main" />
 
         <remove-project name="LineageOS/android_build" />
         <project path="build/make" name="strongreasons/android_build" remote="github" revision="lineage-17.1" groups="pdk" >
@@ -24,30 +18,8 @@
         <linkfile src="tools" dest="build/tools" />
         </project>
 
-        <!-- project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" clone-depth="1" /-->
-
-.       <!-- remove-project name="LineageOS/android_frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base-1" remote="strongreasons" revision="lineage-17.1" /-->
-
-        <!-- HALs -->
-        <!-- remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="wizardprjkt" revision="x" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="wizardprjkt" revision="13x" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="13x" /-->
-
         <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="strongreasons" revision="lineage-17.1" />
-
-        <!-- Fwb -->
-        <!-- remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="strongreasons" revision="arrow-13.0" /-->
-
-        <!-- Prebuilt Clang -->
-        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" /-->
-
-        <!-- project path="packages/apps/GoogleCam" name="Gaurav241/packages_apps_GoogleCamera" remote="github" revision="twelve" /-->
+        <project path="packages/apps/Settings" name="strongreasons/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
         
 </manifest>
