@@ -11,7 +11,7 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="nad" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="nad" />
         <project path="kernel/asus/sdm660" name="aslenofarid/kernel_asus_sdm660" remote="github" revision="lineage-17.1" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_common-1" remote="strongreasons" revision="17.1" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-1" remote="strongreasons" revision="17.1" />
 
         <remove-project name="LineageOS/android_build" />
         <project path="build/make" name="strongreasons/android_build" remote="github" revision="lineage-17.1" groups="pdk" >
