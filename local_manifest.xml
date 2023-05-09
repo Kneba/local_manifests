@@ -12,11 +12,11 @@
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="komodo" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="strongreasons" revision="komodo" />
-        <project path="kernel/asus/sdm660" name="Kneba/kernel_asus_sdm660" remote="github" revision="lineage-19.1" />
-        <project path="device/asus/sdm660-common" name="device_asus_common" remote="strongreasons" revision="12" />
+        <project path="kernel/asus/sdm660" name="Tiktodz/android_kernel_asus_sdm636" remote="github" revision="pie-hmp-caf" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_common-1" remote="strongreasons" revision="17" />
 
-        <remove-project name="build" />
-        <project path="build/make" name="Stable-Stuffs/build" remote="github" revision="twelve" groups="pdk" >
+        <remove-project name="LineageOS/android_build" />
+        <project path="build/make" name="strongreasons/android_build" remote="github" revision="lineage-17.1" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,10 +26,10 @@
         <linkfile src="tools" dest="build/tools" />
         </project>
 
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" clone-depth="1" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" clone-depth="1" /-->
 
-.       <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base-1" remote="strongreasons" revision="twelve-plus" />
+.       <!-- remove-project name="frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base-1" remote="strongreasons" revision="twelve-plus" /-->
 
         <!-- HALs -->
         <!-- remove-project name="android_hardware_qcom_audio" />
@@ -49,6 +49,6 @@
         <!-- Prebuilt Clang -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" /-->
 
-        <project path="packages/apps/GoogleCam" name="Gaurav241/packages_apps_GoogleCamera" remote="github" revision="twelve" />
+        <!-- project path="packages/apps/GoogleCam" name="Gaurav241/packages_apps_GoogleCamera" remote="github" revision="twelve" /-->
         
 </manifest>
