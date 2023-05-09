@@ -10,9 +10,9 @@
           fetch="https://github.com/wizardprjkt" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="komodo" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="strongreasons" revision="komodo" />
-        <project path="kernel/asus/sdm660" name="Tiktodz/android_kernel_asus_sdm636" remote="github" revision="pie-hmp-caf" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="nad" />
+        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="nad" />
+        <project path="kernel/asus/sdm660" name="aslenofarid/kernel_asus_sdm660" remote="github" revision="lineage-17.1" />
         <project path="device/asus/sdm660-common" name="android_device_asus_common-1" remote="strongreasons" revision="17" />
 
         <remove-project name="LineageOS/android_build" />
@@ -28,8 +28,8 @@
 
         <!-- project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" clone-depth="1" /-->
 
-.       <!-- remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base-1" remote="strongreasons" revision="twelve-plus" /-->
+.       <remove-project name="LineageOS/android_frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base-1" remote="strongreasons" revision="lineage-17.1" />
 
         <!-- HALs -->
         <!-- remove-project name="android_hardware_qcom_audio" />
@@ -39,8 +39,8 @@
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="wizardprjkt" revision="13x" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="13x" /-->
 
-        <!-- ih8sn -->
-        <!-- project path="vendor/ih8sn" name="Terminator-J/vendor_ih8sn" remote="github" revision="12.1-test" /-->
+        <!-- Settings -->
+        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="strongreasons" revision="lineage-17.1" />
 
         <!-- Fwb -->
         <!-- remove-project name="android_frameworks_base" />
