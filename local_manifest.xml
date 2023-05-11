@@ -28,7 +28,7 @@
 
         <!-- Frameworks native -->
         <remove-project name="LineageOS/android_frameworks_native" />
-        <project path="frameworks/base" name="Kneba/android_frameworks_native" remote="github" revision="lineage-17.1" />
+        <project path="frameworks/native" name="Kneba/android_frameworks_native" remote="github" revision="lineage-17.1" />
 
         <!-- Audio -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
