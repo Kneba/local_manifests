@@ -26,8 +26,12 @@
         <remove-project name="LineageOS/android_frameworks_base" />
         <project path="frameworks/base" name="Kneba/android_frameworks_base" remote="github" revision="lineage-17.1" />
 
-       <!-- Audio -->
-       <remove-project name="LineageOS/android_hardware_qcom_audio" />
-       <project path="hardware/qcom-caf/msm8998/audio" name="Kneba/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-msm8998" />
+        <!-- Frameworks native -->
+        <remove-project name="LineageOS/android_frameworks_native" />
+        <project path="frameworks/base" name="Kneba/android_frameworks_native" remote="github" revision="lineage-17.1" />
+
+        <!-- Audio -->
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="Kneba/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-msm8998" />
         
 </manifest>
