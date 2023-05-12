@@ -7,7 +7,7 @@
         <project path="vendor/asus" name="Kneba/vendor_asus_X00T" remote="github" revision="master" />
         <project path="kernel/asus/sdm660" name="Tiktodz/kernel_asus_sdm660" remote="github" revision="main" />
 
-        <remove-project name="LineageOS/android_build" />
+        <!-- remove-project name="LineageOS/android_build" />
         <project path="build/make" name="strongreasons/android_build" remote="github" revision="lineage-17.1" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -16,22 +16,22 @@
         <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
-        </project>
+        </project-->
 
         <!-- Settings -->
-        <remove-project name="LineageOS/android_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="Kneba/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
+        <!-- remove-project name="LineageOS/android_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="Kneba/android_packages_apps_Settings" remote="github" revision="lineage-17.1" /-->
 
         <!-- Frameworks -->
-        <remove-project name="LineageOS/android_frameworks_base" />
-        <project path="frameworks/base" name="Kneba/android_frameworks_base" remote="github" revision="lineage-17.1" />
+        <!-- remove-project name="LineageOS/android_frameworks_base" />
+        <project path="frameworks/base" name="Kneba/android_frameworks_base" remote="github" revision="lineage-17.1" /-->
 
         <!-- Frameworks native -->
-        <remove-project name="LineageOS/android_frameworks_native" />
-        <project path="frameworks/native" name="Kneba/android_frameworks_native" remote="github" revision="lineage-17.1" />
+        <!-- remove-project name="LineageOS/android_frameworks_native" />
+        <project path="frameworks/native" name="Kneba/android_frameworks_native" remote="github" revision="lineage-17.1" /-->
 
         <!-- Audio -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="Kneba/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-msm8998" />
+        <!-- remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="Kneba/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-msm8998" /-->
         
 </manifest>
