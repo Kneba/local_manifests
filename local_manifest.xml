@@ -3,9 +3,10 @@
 <manifest>
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="Kneba/device_asus_X00T" remote="github" revision="master" />
-        <project path="vendor/asus" name="Kneba/vendor_asus_X00T" remote="github" revision="master" />
-        <project path="kernel/asus/sdm660" name="Tiktodz/kernel_asus_sdm660" remote="github" revision="main" />
+        <project path="device/asus/X00TD" name="Kneba/platform_device_asus_X00TD" remote="github" revision="10" />
+        <project path="vendor/asus" name="Kneba/platform_vendor_asus" remote="github" revision="10" />
+        <project path="kernel/asus/sdm660" name="Tiktodz/kernel_asus_sdm660" remote="github" revision="base" />
+        <project path="device/asus/sdm660-common" name="Kneba/platform_device_asus_sdm660-common" remote="github" revision="ten" />
 
         <remove-project name="LineageOS/android_build" />
         <project path="build/make" name="strongreasons/android_build" remote="github" revision="lineage-17.1" groups="pdk" >
