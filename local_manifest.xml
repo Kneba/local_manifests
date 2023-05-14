@@ -2,6 +2,8 @@
 
 <manifest>
 
+        <remote name="gitlab" fetch="https://gitlab.com" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="Kneba/platform_device_asus_X00TD" remote="github" revision="10" />
         <project path="vendor/asus" name="Kneba/platform_vendor_asus" remote="github" revision="10" />
