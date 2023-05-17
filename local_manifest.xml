@@ -11,6 +11,9 @@
         <remote name="SonicBSV"
         fetch="https://github.com/SonicBSV" />
 
+        <remote name="github"
+        fetch="https://github.com/Atom-X-Devs" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="carbon" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="ElectroPerf" revision="dot11" />
@@ -23,8 +26,8 @@
         <remove-project name="LineageOS/android_hardware_qcom_audio" /-->
 
         <!-- Cloning -->
-        <project path="hardware/qcom-caf/sdm660/media" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_media" remote="github" revision="sdm660-11" />
-        <project path="hardware/qcom-caf/sdm660/display" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_display" remote="github" revision="sdm660-11" />
-        <project path="hardware/qcom-caf/sdm660/audio" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_audio" remote="github" revision="sdm660-11" />
+        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" remote="github" revision="sdm660-11" />
+        <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" remote="github" revision="sdm660-11" />
+        <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" remote="github" revision="sdm660-11" />
 
 </manifest>
