@@ -14,10 +14,13 @@
         <remote name="github"
         fetch="https://github.com/Atom-X-Devs" />
 
+        <remote name="dotOS"
+        fetch="https://github.com/dotOS-Devices" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="carbon" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="ElectroPerf" revision="dot11" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="SonicBSV" revision="r3/s" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="dotOS" revision="dot11" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="ElectroPerf" revision="dot11" />
 
         <!-- Remove -->
