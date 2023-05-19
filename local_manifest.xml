@@ -5,8 +5,8 @@
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
 
-        <remote name="arrow"
-        fetch="https://github.com/ArrowOS" />
+        <remote name="xyz-prjkt"
+        fetch="https://github.com/xyz-prjkt" />
 
         <remote name="kdrag0n"
         fetch="https://github.com/kdrag0n" />
@@ -27,9 +27,9 @@
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="Kneba" revision="arrow-11.0-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="arrow" revision="arrow-11.0-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="arrow" revision="arrow-11.0-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hw_media" groups="qcom,pdk-qcom" remote="xyz-prjkt" revision="eleven_caf-4.19" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hw_display" groups="pdk-qcom,qcom,qcom_display" remote="xyz-prjkt" revision="eleven_caf-4.19" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" groups="qcom,qcom_audio,pdk-qcom" remote="xyz-prjkt" revision="eleven_caf-4.19" />
 
         <!-- Cloning -->
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
