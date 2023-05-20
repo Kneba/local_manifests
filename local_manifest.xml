@@ -24,12 +24,12 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-1" remote="Kneba" revision="dot11" />
 
         <!-- Remove -->
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <!-- remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <project path="hardware/qcom-caf/msm8998/media" name="hw_media" groups="qcom,pdk-qcom" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="hw_display" groups="pdk-qcom,qcom,qcom_display" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" groups="qcom,qcom_audio,pdk-qcom" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" groups="qcom,qcom_audio,pdk-qcom" remote="xyz-prjkt" revision="eleven_caf_msm8998" /-->
 
         <!-- Cloning -->
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
