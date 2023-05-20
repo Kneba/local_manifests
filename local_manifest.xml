@@ -36,4 +36,8 @@
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <project path="hardware/qcom-caf/msm8998/audio" name="Kneba/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-msm8998" />
 
+        <!-- sdk -->
+        <remove-project name="LineageOS/android_lineage-sdk" />
+        <project path="lineage-sdk" name="Kneba/android_lineage-sdk" remote="github" revision="lineage-17.1" />
+        
 </manifest>
