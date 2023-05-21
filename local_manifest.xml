@@ -27,9 +27,9 @@
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" groups="qcom,pdk-qcom" remote="pkm774" revision="video-userspace.lnx.2.10.r10-rel" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" groups="pdk-qcom,qcom,qcom_display" remote="pkm774" revision="display.lnx.3.4.r3-rel" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio,pdk-qcom" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="pkm774" revision="video-userspace.lnx.2.10.r10-rel" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="pkm774" revision="display.lnx.3.4.r3-rel" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" />
 
         <!-- Cloning -->
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
