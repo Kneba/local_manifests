@@ -19,24 +19,24 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="carbon" />
-        <project path="vendor/asus" name="vendor_asus_proprietary" remote="dotOS" revision="dot11" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="dotOS" revision="dot11" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-1" remote="Kneba" revision="dot11" />
+        <project path="vendor/asus" name="vendor_asus_proprietary" remote="dotOS" revision="dot11-4.4" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="dotOS" revision="dot11-4.4" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="dotOS" revision="dot11-4.4" />
 
         <!-- Remove -->
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <!-- remove-project name="LineageOS/android_hardware_qcom_media" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="pkm774" revision="video-userspace.lnx.2.10.r10-rel" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="pkm774" revision="display.lnx.3.4.r3-rel" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" /-->
 
         <!-- Cloning -->
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+        <!-- linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
         <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom_media_sdm660-4.19" groups="qcom,pdk-qcom" remote="pkm774" revision="video-userspace.lnx.2.10.1.r2-rel" />
         <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display_sdm660-4.19" groups="pdk-qcom,qcom,qcom_display" remote="pkm774" revision="display.lnx.3.4.r1-rel" />
-        <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom_audio_sdm660-4.19" groups="qcom,qcom_audio,pdk-qcom" remote="pkm774" revision="audio-hal.lnx.8.0.r8-rel" />
+        <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom_audio_sdm660-4.19" groups="qcom,qcom_audio,pdk-qcom" remote="pkm774" revision="audio-hal.lnx.8.0.r8-rel" /-->
 
         <!-- Proton Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
