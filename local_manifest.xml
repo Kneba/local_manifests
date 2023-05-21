@@ -5,8 +5,8 @@
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
 
-        <remote name="arrow"
-        fetch="https://github.com/ArrowOS" />
+        <remote name="pkm774"
+        fetch="https://github.com/pkm774" />
 
         <remote name="kdrag0n"
         fetch="https://github.com/kdrag0n" />
@@ -34,9 +34,9 @@
         <!-- Cloning -->
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-11.0-caf-sdm660" />
-        <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" groups="pdk-qcom,qcom,qcom_display" remote="Kneba" revision="11" />
-        <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="arrow" revision="arrow-11.0-caf-sdm660" />
+        <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom_media_sdm660-4.19" groups="qcom,pdk-qcom" remote="pkm774" revision="video-userspace.lnx.2.10.1.r2-rel" />
+        <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display_sdm660-4.19" groups="pdk-qcom,qcom,qcom_display" remote="pkm774" revision="display.lnx.3.4.r1-rel" />
+        <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom_audio_sdm660-4.19" groups="qcom,qcom_audio,pdk-qcom" remote="pkm774" revision="audio-hal.lnx.8.0.r8-rel" />
 
         <!-- Proton Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
