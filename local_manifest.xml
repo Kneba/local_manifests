@@ -21,7 +21,7 @@
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="carbon" />
         <project path="vendor/asus" name="vendor_asus_proprietary" remote="dotOS" revision="dot11-4.4" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="dotOS" revision="dot11-4.4" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="dotOS" revision="dot11-4.4" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-1" remote="Kneba" revision="dot11-4.4" />
 
         <!-- Remove -->
         <!-- remove-project name="LineageOS/android_hardware_qcom_media" />
