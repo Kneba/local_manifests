@@ -2,20 +2,23 @@
 
 <manifest>
 
-        <!-- remote name="github"
-        fetch="https://github.com/" /-->
+        <remote name="Kneba"
+        fetch="https://github.com/Kneba" /-->
 
-        <remote name="gitlab"
-        fetch="https://gitlab.com/" />
+        <remote name="Tiktodz"
+        fetch="https://github.com/Tiktodz" />
+
+        <remote name="strongreasons"
+        fetch="https://github.com/strongreasons" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="Kneba/platform_device_asus_X00TD" remote="github" revision="10" />
-        <project path="vendor/asus" name="Kneba/platform_vendor_asus" remote="github" revision="10" />
-        <project path="kernel/asus/sdm660" name="Tiktodz/kernel_asus_sdm660" remote="github" revision="base" />
-        <project path="device/asus/sdm660-common" name="Kneba/platform_device_asus_sdm660-common" remote="github" revision="ten" />
+        <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="10" />
+        <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="10" />
+        <project path="kernel/asus/sdm660" name="Kernel_asus_sdm660" remote="Tiktodz" revision="base" />
+        <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="ten" />
 
         <remove-project name="LineageOS/android_build" />
-        <project path="build/make" name="strongreasons/android_build" remote="github" revision="lineage-17.1" groups="pdk" >
+        <project path="build/make" name="android_build" remote="strongreasons" revision="lineage-17.1" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -27,22 +30,22 @@
 
         <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="Kneba/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
+        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Kneba" revision="lineage-17.1" />
 
         <!-- Frameworks -->
         <remove-project name="LineageOS/android_frameworks_base" />
-        <project path="frameworks/base" name="Kneba/android_frameworks_base" remote="github" revision="lineage-17.1" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="Kneba" revision="lineage-17.1" />
 
         <!-- Frameworks native -->
         <remove-project name="LineageOS/android_frameworks_native" />
-        <project path="frameworks/native" name="Kneba/android_frameworks_native" remote="github" revision="lineage-17.1" />
+        <project path="frameworks/native" name="android_frameworks_native" remote="Kneba" revision="lineage-17.1" />
 
         <!-- Audio -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="Kneba/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Kneba" revision="lineage-17.1-caf-msm8998" />
 
         <!-- sdk -->
         <remove-project name="LineageOS/android_lineage-sdk" />
-        <project path="lineage-sdk" name="Kneba/android_lineage-sdk" remote="github" revision="lineage-17.1" />
+        <project path="lineage-sdk" name="android_lineage-sdk" remote="github" revision="lineage-17.1" />
         
 </manifest>
