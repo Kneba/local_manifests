@@ -3,7 +3,7 @@
 <manifest>
 
         <remote name="Kneba"
-        fetch="https://github.com/Kneba" /-->
+        fetch="https://github.com/Kneba" />
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
