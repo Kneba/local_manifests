@@ -11,8 +11,8 @@
         <!-- remote name="kdrag0n"
         fetch="https://github.com/kdrag0n" /-->
 
-        <!-- remote name="xyz-prjkt"
-        fetch="https://github.com/xyz-prjkt" /-->
+        <remote name="aslenofarid"
+        fetch="https://github.com/aslenofarid" />
 
         <remote name="dotOS"
         fetch="https://github.com/dotOS-Devices" />
@@ -42,7 +42,7 @@
         <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
 
         <!-- System core -->
-        <!-- remove-project name="CarbonROM/android_system_core" />
-        <project path="system/core" name="android_system_core" remote="Kneba" revision="cr-9.0" /-->
+        <remove-project name="CarbonROM/android_system_core" />
+        <project path="system/core" name="android_system_core" remote="aslenofarid" revision="cr-9.0" />
         
 </manifest>
