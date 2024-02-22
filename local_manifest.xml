@@ -2,47 +2,26 @@
 
 <manifest>
 
-        <remote name="Kneba"
-        fetch="https://github.com/Kneba" />
+  <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
 
-        <remote name="Tiktodz"
-        fetch="https://github.com/Tiktodz" />
+  <!-- remote name="ImSurajxD"
+          fetch="https://gitlab.com/ImSurajxD" /-->
 
-        <!-- remote name="strongreasons"
-        fetch="https://github.com/strongreasons" /-->
+  <!-- remote name="Panchajanya1999"
+          fetch="https://gitlab.com/Panchajanya1999" /-->
 
-        <remote name="arrow"
-        fetch="https://github.com/ArrowOS-Devices" />
-
-        <remote name="PixelExperience"
-        fetch="https://github.com/PixelExperience" />
-
-        <remote name="aosp"
-        fetch="https://android.googlesource.com"
-        review="android-review.googlesource.com"
-        revision="refs/tags/android-12.1.0_r22" />
+  <!-- remote name="strongreasons"
+          fetch="https://github.com/strongreasons" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="rice" />
-        <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="main" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="twelve-caf-eas" />
-        <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="twelve" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="crd" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="14" />
+        <!-- project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="udc" /-->
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="14" />
 
         <!-- Toolchains -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
-
-        <!-- Remove -->
-        <remove-project name="platform/external/libavc" />
-        <remove-project name="platform/external/libmpeg2" />
-        <remove-project name="platform/external/tremolo" />
-        <remove-project name="platform/external/libgav1" />
-        <remove-project name="crdroidandroid/android_packages_services_Telecomm" />
-
-        <!-- Cloning -->
-        <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
-        <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" remote="aosp" />
-        <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
-        <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
-        <project path="crdroidandroid/packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelExperience" revision="twelve" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /-->
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
 
 </manifest>
