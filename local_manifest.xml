@@ -11,11 +11,11 @@
         <!-- remote name="strongreasons"
         fetch="https://github.com/strongreasons" /-->
 
-        <remote name="ArrowOS"
-        fetch="https://github.com/ArrowOS-Devices" />
+        <!-- remote name="ArrowOS"
+        fetch="https://github.com/ArrowOS-Devices" /-->
 
         <!-- build -->
-        <remove-project name="build" />
+        <!-- remove-project name="build" />
         <project path="build/make" name="build" remote="Kneba" revision="snow" clone-depth="1" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -24,14 +24,14 @@
         <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
-        </project>
+        </project -->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="twelve" />
-        <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="main" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="crdroid" />
+        <!-- project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="main" />
         <project path="kernel/asus/sdm660" name="platform_kernel_asus_sdm660" remote="Kneba" revision="eas" />
         <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="twelve" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS" revision="arrow-11.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS" revision="arrow-11.0" /-->
 
         <!-- Stuffs -->
         <!-- remove-project name="android_hardware_qcom_audio" />
@@ -44,9 +44,9 @@
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" /-->
 
         <!-- Stuffs -->
-        <remove-project name="frameworks_base" />
+        <!-- remove-project name="frameworks_base" />
         <remove-project name="vendor_evolution" />
         <project path="frameworks/base" name="evolution_frameworks_base" remote="Kneba" revision="snow" />
-        <project path="vendor/evolution" name="vendor_evolution" remote="Kneba" revision="snow" />
+        <project path="vendor/evolution" name="vendor_evolution" remote="Kneba" revision="snow" /-->
 
 </manifest>
