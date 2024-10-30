@@ -4,39 +4,10 @@
 
   <remote name="Kneba"
           fetch="https://github.com/Kneba" />
-  <remote name="ThankYouMario"
-          fetch="https://gitlab.com/ThankYouMario" />
-  <remote name="wizardprjkt"
-          fetch="https://github.com/wizardprjkt" />
-  <remote name="strongreasons"
-          fetch="https://github.com/strongreasons" />
+  <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00TD" remote="strongreasons" revision="aosp" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="strongreasons" revision="aosp" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-4.19" remote="strongreasons" revision="r2/s" />
-        <!-- project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="13" /-->
-
-        <!-- HALs -->
-        <!-- remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="wizardprjkt" revision="x" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="wizardprjkt" revision="13x" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="13x" /-->
-
-        <!-- ih8sn -->
-        <!-- project path="vendor/ih8sn" name="Terminator-J/vendor_ih8sn" remote="github" revision="12.1-test" /-->
-
-        <!-- Fwb -->
-        <!-- remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="strongreasons" revision="arrow-13.0" /-->
-
-        <!-- AOSP Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-        <project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="ThankYouMario" revision="14" />
-  
-        <!-- Proton Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="13/hmp" />
 
 </manifest>
