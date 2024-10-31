@@ -8,6 +8,6 @@
           fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="13/hmp" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="tiramisu" />
 
 </manifest>
