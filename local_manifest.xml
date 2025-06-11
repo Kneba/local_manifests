@@ -8,6 +8,6 @@
         fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Tiktodz" revision="infinityx" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="15" />
 
 </manifest>
